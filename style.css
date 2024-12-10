@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #555;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form input, form textarea, form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background: pink;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: black;
+  }
+  
+  #taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #taskList li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-info {
+    max-width: 80%;
+  }
+  
+  .task-actions button {
+    margin-left: 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .task-actions button:hover {
+    background: #c82333;
+  }
+/* Tarefa marcada como concluída */
+.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+    
